@@ -10,6 +10,10 @@ To test it out with some fake data and locations, you need to simply uncomment t
 
 # if you are using an actual devices.
 
-You need to comment out the "import ../\_mockLocation" from 'src/sreens/TrackCreateScreen' before testing.
+You need to comment out the "import ../\_mockLocation" from 'src/sreens/TrackCreateScreen' before testing. Cause it will automatically detect your actual location. So you don't need those fake data.
 
 The BaseUrl has been settled. As the custom express server has been successfully deployed. ngrok is no longer being used in this app
+
+# To start recording your track
+
+After successfully logging in or signing up. at the bottom navigator click on create Track tab and you are ready to go
